@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="368.0" prefWidth="440.0" stylesheets="@../DesignCSS/design.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.FXMLController">
+   <children>
+      <HBox layoutX="1.0" layoutY="138.0" prefHeight="45.0" prefWidth="203.0">
+         <children>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#numbers" text="7">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#numbers" text="8">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#numbers" text="9">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#operator" text="/">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="1.0" layoutY="183.0" prefHeight="45.0" prefWidth="200.0">
+         <children>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#numbers" text="4">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#numbers" text="5">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#numbers" text="6">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#operator" text="*">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="1.0" layoutY="228.0" prefHeight="45.0" prefWidth="147.0">
+         <children>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#numbers" text="1">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#numbers" text="2">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#numbers" text="3">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#operator" text="-">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="1.0" layoutY="273.0" prefHeight="45.0" prefWidth="220.0">
+         <children>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#numbers" text="0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#operator" text=".">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#buttonCalculate" text="=">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#operator" text="+">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <TextArea fx:id="history" layoutX="221.0" layoutY="48.0" prefHeight="318.0" prefWidth="220.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <HBox layoutX="1.0" layoutY="93.0" prefHeight="45.0" prefWidth="170.0">
+         <children>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#buttonbrackets" text="(">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#operator" text=")">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#cleanEntry" prefHeight="75.0" prefWidth="55.0" text="CE">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#allClean" text="AC">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <TextField fx:id="process1" alignment="CENTER_RIGHT" layoutX="1.0" layoutY="48.0" prefHeight="45.0" prefWidth="220.0" text="0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="1.0" layoutY="318.0" minHeight="45.0" minWidth="55.0" mnemonicParsing="false" onAction="#cleanHistory" prefHeight="48.0" prefWidth="220.0" styleClass="qq" text="Clear Historical Data">
+         <font>
+            <Font size="9.0" />
+         </font></Button>
+      <Label fx:id="ans1" alignment="CENTER" prefHeight="48.0" prefWidth="440.0" text="Simply Calculator" textFill="#4fe1ab">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="41.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
