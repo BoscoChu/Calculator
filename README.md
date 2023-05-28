@@ -15,7 +15,7 @@ A Simple Calculator for practicing programming skills
 # Built With
 * JAVA
 * JAVAFX
-
+* CSS
 
 
 # Pictures
@@ -26,5 +26,9 @@ A Simple Calculator for practicing programming skills
 # Setup(exe file)
 https://drive.google.com/file/d/1_VCtrPgfPHqFL-7QhxwBam6lRXLJiSdr/view?usp=sharing
 
+
+## How to Run?
+
+To run the application you simply need to setup the exe file or just clone the project.
 
 
