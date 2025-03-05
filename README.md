@@ -1,6 +1,7 @@
+![image](https://github.com/user-attachments/assets/0ffda237-8504-4a7f-9021-e0f42b50be41)
 
 # Calculator
-A Simple Calculator for practicing programming skills
+A Simple Calculator (Desktop Application) for practicing programming skills
 
 
 
@@ -12,10 +13,15 @@ A Simple Calculator for practicing programming skills
 * Historical record 
 
 
-# Built With
-* JAVA
-* JAVAFX
-* CSS
+## Front-End
+ * JAVAFX
+ *  CSS
+
+## Back-End
+ * JAVA
+
+## Database
+ * Mysql
 
 
 # Pictures
@@ -31,7 +37,6 @@ https://drive.google.com/file/d/1_VCtrPgfPHqFL-7QhxwBam6lRXLJiSdr/view?usp=shari
 
 To run the application you simply need to setup the exe file(windows) or just clone the project.
 
-****windows only***
-I am preparing updated installation for other operating system(Macos and Linux) 
+*windows and Linux only
 
 
