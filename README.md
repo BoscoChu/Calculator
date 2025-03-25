@@ -20,8 +20,6 @@ A Simple Calculator (Desktop Application) for practicing programming skills
 ## Back-End
  * JAVA
 
-## Database
- * Mysql
 
 
 # Pictures
